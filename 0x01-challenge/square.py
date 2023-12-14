@@ -10,8 +10,7 @@ class Square():
     def __init__(self, *args, **kwargs):
         """initialize a new square"""
         for key, value in kwargs.items():
-            if key == 'width' or key == 'height':
-                setattr(self, key, value)
+            setattr(self, key, value)
 
     def area_of_my_square(self):
         """ Area of the square """
