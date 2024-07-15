@@ -52,3 +52,7 @@ Here's how it works in practice:
    You only need to define the part of the route that comes after the prefix. Flask will automatically combine the Blueprint's prefix (`/api/v1`) with the route you define (`/status`), making the complete route `/api/v1/status`.
 
 So, in summary, the adjusted code is simpler because you only need to define the part of the route that comes after the Blueprint's prefix in your view files. The Blueprint takes care of adding the prefix when combining routes.
+
+## 3. blog:
+
+add the line: `Rails.application.load_server` to start the rails application
